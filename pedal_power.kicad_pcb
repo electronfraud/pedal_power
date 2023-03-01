@@ -34,7 +34,7 @@
   )
 
   (setup
-    (last_trace_width 1.5)
+    (last_trace_width 0.25)
     (user_trace_width 1.5)
     (trace_clearance 0.2)
     (zone_clearance 0.508)
@@ -1349,10 +1349,10 @@
       (net 4 +9V))
     (pad 1 thru_hole rect (at 0 0 90) (size 2.6 2.6) (drill 1.6) (layers *.Cu *.Mask)
       (net 1 GND))
-    (model ${KISYS3DMOD}/Connector_BarrelJack.3dshapes/BarrelJack_CUI_PJ-102AH_Horizontal.wrl
-      (at (xyz 0 0 0))
+    (model :LOCAL3DMOD:PJ-102AH--3DModel-STEP-56544.STEP
+      (offset (xyz 0 -6.5 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz -90 0 90))
     )
   )
 
@@ -1401,10 +1401,10 @@
       (net 4 +9V))
     (pad 1 thru_hole rect (at 0 0 90) (size 2.6 2.6) (drill 1.6) (layers *.Cu *.Mask)
       (net 1 GND))
-    (model ${KISYS3DMOD}/Connector_BarrelJack.3dshapes/BarrelJack_CUI_PJ-102AH_Horizontal.wrl
-      (at (xyz 0 0 0))
+    (model :LOCAL3DMOD:PJ-102AH--3DModel-STEP-56544.STEP
+      (offset (xyz 0 -6.5 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz -90 0 90))
     )
   )
 
@@ -1453,10 +1453,10 @@
       (net 4 +9V))
     (pad 1 thru_hole rect (at 0 0 90) (size 2.6 2.6) (drill 1.6) (layers *.Cu *.Mask)
       (net 1 GND))
-    (model ${KISYS3DMOD}/Connector_BarrelJack.3dshapes/BarrelJack_CUI_PJ-102AH_Horizontal.wrl
-      (at (xyz 0 0 0))
+    (model :LOCAL3DMOD:PJ-102AH--3DModel-STEP-56544.STEP
+      (offset (xyz 0 -6.5 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz -90 0 90))
     )
   )
 
