@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP D_Small_45
-D Diode, small symbol, 45-degree rotation
-K diode
-F ~
-$ENDCMP
-#
-#End Doc Library

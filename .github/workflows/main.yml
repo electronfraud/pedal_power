@@ -1,0 +1,24 @@
+on:
+  push:
+    paths:
+      - '**.kicad_sch'
+
+jobs:
+  plot:
+    runs-on: ubuntu-latest
+    name: Plot
+    steps:
+      - name: Checkout
+        id: checkout
+        uses: actions/checkout@v3
+      - name: Plot
+        id: Plot
+        uses: electronfraud/plot@v1
+      - name: Push
+        id: push
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add .
+          git commit -m 'plot schematics'
+          git push
